@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+    <title>Airbnb</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="first" class="row">
+            <div class="row"><a href="index.html"><img class="logo" src="./img/logo.png" alt="Airbnb icon"></a></div>
+            <div class="row border searchBox">
+                <div class="container">
+                    <div class="row">
+                        <h1><strong>Find homes on Airbnb</strong></h1>
+                    </div>
+                    <div class="row">
+                        <p>Discover entire homes and private rooms perfect for any trip.</p>
+                    </div>
+                    <div class="row"><label for="where">WHERE</label></div>
+                    <div class="row"><input type="text" id="locate" name="location" placeholder="Anywhere"></div>
+                    <div class="row checkInOut">
+                        <div class="col-6">
+                            <div class="row"><label for="checkIn">CHECK IN</label><br></div>
+                            <div class="row"><input type="text" id="cInDate" name="checkInDate" placeholder="mm/dd/yyyy"></div>
+                        </div>
+                        <div class="col-6 ">
+                            <div class="row"><label for="checkOut">CHECK OUT</label><br></div>
+                            <div class="row"><input type="text" id="cOutDate" name="checkOutDate" placeholder="mm/dd/yyyy"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="row"><label for="adult">ADULTS</label><br></div>
+                            <div class="row"><select class="adultselectpicker" data-width="fit">
+                            <option data-content='1adult'>1 Adult</option>
+                            <option data-content='2adult'>2 Adults</option>
+                            <option data-content='3adult'>3 Adults</option>
+                            <option data-content='4adult'>4 Adults</option>
+                            <option data-content='5adult'>5 Adults</option>
+                        </select></div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row"><label for="children">CHILDREN</label><br></div>
+                            <div class="row"><select class="childselectpicker" data-width="fit">
+                                <option data-content='0children'>0 Children</option>
+                                <option data-content='1children'>1 Children</option>
+                                <option data-content='2children'>2 Children</option>
+                                <option data-content='3children'>3 Children</option>
+                                <option data-content='4children'>4 Children</option>
+                                </select></div>
+                        </div>
+                    </div>
+                    <div class="row"><input type="submit" value="Search"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="second">
+        <div class="page">
+            <div class="row">
+                <div class="container-fluid">
+                    <p class="title">What guests are saying about homes in United States</p>
+                </div>
+                <div class="row reviewsss container">
+                    <div class="review col-xl-5 col-md-6 float-left">
+                        <div class="float-left"><img src="img/handicon.png" alt="Thumb Icon" class="icon1 "></div>
+                        <div class="col-xl-10 col-md-10 float-left">
+                            <p>20,500,000+ reviews<span class="pp"><br>
+                               of Airbnb homes in United States</span></p>
+                        </div>
+                    </div>
+                    <div class="trophy col-xl-6 col-md-6 float-left">
+                        <div class=" float-left"><img src="img/trophyicon.png" alt="Trophy Icon" class="icon1"></div>
+                        <div class="col-xl-10 col-md-10 float-left">
+                            <p>4.8 out of 5 stars<span class="pp"><br>average home rating in United States</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="island">
+                            <a href="#Island"><img src="img/island1.jpeg" alt="Island Picture" class="islandPic"></a>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p>We had a magical time on Beaver Island at Jeff's rental. Our lodgings were excellent: the apartment was spacious, and ...</p>
+                            <div class="profilePic">
+                                <a href="#Molly"><img src="img/profilepic.png" alt="Profile Picture" class="float-left" style="margin-bottom:6%;"></a>
+                                <p><a href="#Molly"><strong>Molly</strong></a><span class="ppp"><br>United States</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="riverside">
+                            <a href="#Riverside"><img src="img/riverside.jpeg" alt="Riverside Picture" class="riversidePic"></a>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p>Sue is a local, and knows the local history. In a place like Beaver Island, that is fantastic! I can't imagine how much less interesting our stay ...</p>
+                            <div class="profilePic">
+                                <a href="#Theresa"><img src="img/profilepic.png" alt="Profile Picture" class="float-left" style="margin-bottom:6%;"></a>
+                                <p><a href="#Theresa"><strong>Theresa</strong></a><span class="ppp"><br>United States</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-12">
+                        <div class="woodland">
+                            <a href="#Woodland"><img src="img/woodland.jpeg" alt="Woodland Picture" class="woodlandPic"></a>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                            <p style="font-family:'Raleway', sans-serif; font-size:16px;margin-top:5px;">Seamus met us at ferry station and lead us to his house. he was very friendly. his house was very secluded and tremendous, clean, we enjoyed the stay.</p>
+                            <div class="profilePic">
+                                <a href="#Woodland"><img src="img/profilepic.png" alt="Profile Picture" class="float-left" style="margin-bottom:6%;"></a>
+                                <p><a href="#Woodland"><strong>Qun</strong></a><span class="ppp"><br>United States</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="third">
+        <div class="page">
+            <div class="row">
+                <div class="container-fluid ">
+                    <div class="title">
+                        <p style="padding-top:22px;padding-bottom:20px;">
+                            <strong>Travelling with Airbnb</strong></p>
+                    </div>
+                    <div class="row container">
+                        <div class="love col-xl-4 col-md-6 col-12">
+                            <div class="row"><img src="img/love.png" alt="Love Icon"></div>
+                            <div class="row">
+                                <p><strong>24/7 customer support</strong><br><br><span id="pp">Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour of day.</span></p>
+                            </div>
+                        </div>
+                        <div class="home col-xl-4 col-md-6 col-12">
+                            <div class="row"><img src="img/home.png" alt="Home Icon"></div>
+                            <div class="row">
+                                <p><strong>Global hospitality standards</strong><br><br><span id="pp">Guests review their hosts after each stay. All hosts must maintain a minimum rating and our hospitality standards to be on Airbnb.</span></p>
+                            </div>
+                        </div>
+                        <div class="person col-xl-4 col-md-6 col-12">
+                            <div class="row"><img src="img/person.png" alt="Person Icon"></div>
+                            <div class="row">
+                                <p><strong>5-star hosts</strong><br><br><span id="pp">From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local hospitality.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="forth">
+        <div class="page">
+            <div class="row">
+                <div class="container-fluid ">
+                    <div class="title">
+                        <p style="margin-bottom:4%;"><strong>Homes in United States</strong></p>
+                    </div>
+                    <div class="row">
+                        <div class="livingroom2 col-xl-3 col-md-6 col-xs-12">
+                            <a href="#Secluded Intown Treehouse"><img src="img/livingroom2.jpeg" alt="Livingroom Picture" class="livingroom2Pic"></a>
+                            <span class="forthPartp">ENTIRE HOME/APT · 1 BED</span>
+                            <br>
+                            <a href="#Secluded Intown Treehouse"><span class="forthPartpp"><strong>Secluded Intown Treehouse</strong></span></a>
+                            <br><br>
+                            <span class="forthPartppp">$11,327 TWDper night</span>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                        </div>
+                        <div class="beach col-xl-3 col-md-6 col-12">
+                            <a href="#Malibu Dream Airstream"><img src="img/beach.jpeg" alt="Beach Picture" class="beachPic"></a>
+                            <span class="forthPartp">ENTIRE HOME/APT · 1 BED</span>
+                            <br>
+                            <a href="#Malibu Dream Airstream"><span class="forthPartpp"><strong>Malibu Dream Airstream</strong></span></a>
+                            <br><br>
+                            <span class="forthPartppp">$18,123 TWDper night</span>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                        </div>
+                        <div class="livingroom3 col-xl-3 col-md-6 col-12">
+                            <a href="#The Joshua Tree House"><img src="img/livingroom3.jpeg" alt="Livingroom Picture" class="livingroom3Pic"></a>
+                            <span class="forthPartp">ENTIRE HOME/APT · 2 BED</span>
+                            <br>
+                            <a href="#The Joshua Tree House"><span class="forthPartpp"><strong>The Joshua Tree House</strong></span></a>
+                            <br><br>
+                            <span class="forthPartppp">$7,551 TWDper night</span>
+                            <h4 style="color:#008489;">&#9733;&#9733;&#9733;&#9733;&#9733;</h4>
+                        </div>
+                        <div class="woodland2 col-xl-3 col-md-6 col-12">
+                            <a href="#See all"><img src="img/woodland2.jpeg" alt="See all..." class="woodland2Pic"></a>
+                            <a href="#See all">
+                                <div class="seeAll">SEE ALL 24,000++HOMES >></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fifth">
+        <div class="page">
+            <div class="row">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="title col-xl-7 col-md-7 col-12">
+                            <p style="color:white;">When are you travelling?</p>
+                            <p style="font-family:Arial;color:white; font-size:20px;">Add dates for updated pricing and availability.</p>
+                        </div>
+                        <div class="addDateButton col-xl-5 col-md-5 col-12">
+                            <a href="#Add dates">Add dates</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sixth">
+        <div class="page">
+            <div class="row">
+                <div class="container-fluid ">
+                    <div class="row">
+                        <div class="airbnb col-xl-3 col-md-6 col-12">
+                            <h1><strong>Airbnb</strong></h1>
+                            <p span class="pp">
+                                <a href="#Careers">Careers</a>
+                                <br>
+                                <a href="#Press">Press</a>
+                                <br>
+                                <a href="#Policies">Policies</a>
+                                <br>
+                                <a href="#Help">Help</a>
+                                <br>
+                                <a href="#Diversity & Belonging">Diversity & Belonging</a></p>
+                        </div>
+                        <div class="discover col-xl-3 col-md-6 col-12">
+                            <h1><strong>Discover</strong></h1>
+                            <p span class="pp">
+                                <a href="#Trust & Safety">Trust & Safety</a>
+                                <br>
+                                <a href="#Travel Credit">Travel Credit</a>
+                                <br>
+                                <a href="#Gift Cards">Gift Cards</a>
+                                <br>
+                                <a href="#Airbnb Citizen">Airbnb Citizen</a>
+                                <br>
+                                <a href="#Business Travel">Business Travel</a>
+                                <br>
+                                <a href="#Guidebooks">Guidebooks</a>
+                                <br>
+                                <a href="#Airbnbmag">Airbnbmag</a></p>
+                        </div>
+                        <div class="hosting col-xl-3 col-md-6 col-12">
+                            <h1><strong>Hosting</strong></h1>
+                            <p span class="pp">
+                                <a href="#Why Host">Why Host</a>
+                                <br>
+                                <a href="#Hospitality">Hospitality</a>
+                                <br>
+                                <a href="#Responsible Hosting">Responsible Hosting</a>
+                                <br>
+                                <a href="#Community Center">Community Center</a></p>
+                        </div>
+                        <div class="footericon col-xl-3 col-md-6 col-12">
+                            <div class="fiticon">
+                                <a href="https://www.facebook.com"><img src="img/fbicon.png" alt="Facebook Icon" class="fbicon"></a>
+                                <a href="https://www.instagram.com"><img src="img/igicon.png" alt="Instagram Icon" class="igicon"></a>
+                                <a href="https://www.twitter.com"><img src="img/twiicon.png" alt="Twitter Icon" class="twiicon" ></a>
+                                <br><br><br>
+                                <p span class="pp">
+                                    <a href="#Term">Term</a>
+                                    <br>
+                                    <a href="#Privacy">Privacy</a>
+                                    <br>
+                                    <a href="#Site Map">Site Map</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seventh">
+            <div class="page">
+                <div class="row">
+                    <div class="container-fluid">
+                        <hr>
+                        <div class="airbnbicon col-xl-8 col-md-8 col-6">
+                            <img src="img/airbnbicon.png" alt="Airbnb Icon" class="airicon">
+                            <p style="font-family: 'Tajawal', sans-serif;">© Airbnb, Inc</p>
+                        </div>
+                        <div class="twobar col-xl-4 col-md-4 col-6">
+                            <div class="lanbar col-xl-6 col-md-6 col-6">
+                                <select class="languageselectpicker" data-width="fit">
+                                        <option data-content='English'>English</option>
+                                        <option data-content='Chinese'>Chinese</option>
+                                        <option data-content='Malay'>Malay</option>
+                                        <option data-content='Japanese'>Japanese</option>
+                                        <option data-content='Russian'>Russian</option>
+                                    </select>
+                            </div>
+                            <div class="moneybar col-xl-6 col-md-6 col-6">
+                                <select class="moneyselectpicker" data-width="fit">
+                                        <option data-content='TWD'>TWD</option>
+                                        <option data-content='USD'>USD</option>
+                                        <option data-content='RMB'>RMB</option>
+                                        <option data-content='YEN'>YEN</option>
+                                        <option data-content='RM'>RM</option>
+                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>

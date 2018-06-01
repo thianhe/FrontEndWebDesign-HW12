@@ -1,0 +1,611 @@
+html {
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    font-size: 26px;
+}
+
+.page {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    margin: 4% 0 0 0;
+    font-size: 32px;
+    min-width: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    .page {
+        margin: 0 10%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .page {
+        margin: 0 12%;
+    }
+}
+
+/*first*/
+
+#first {
+    background: url(../img/livingroom.jpg)fixed center;
+    background-size: cover;
+    display: flex;
+}
+
+#first .logo {
+    max-width: 55px;
+    max-height: 55px;
+    margin: 65%;
+}
+
+@media only screen and (max-width: 1279px) {
+    #first .logo {
+        margin-left: 120%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #first .logo {
+        margin-left: 70%;
+    }
+}
+
+#first .searchBox {
+    background-color: white;
+    border-radius: 3px;
+    width: auto;
+    height: auto;
+    padding: 2%;
+    margin: 10% 7% 7%;
+}
+
+@media only screen and (max-width: 1140px) {
+    #first .searchBox {
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #first .searchBox {
+        width: 100%;
+        margin-top: 3%;
+        padding: 5%;
+    }
+}
+
+#first .searchBox p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#first .searchBox label {
+    font-family: 'Raleway', sans-serif;
+    color: #868d90;
+    font-size: 15px;
+    margin: 0;
+}
+
+#first input[type=text], select {
+    width: 97%;
+    height: 4px;
+    padding: 4%;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#first .checkInOut input[type=text], select {
+    width: 95%;
+    height: 5px;
+    padding: 8%;
+    margin: 2% 0 5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+#first .adultselectpicker {
+    width: 95%;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#first .childselectpicker {
+    width: 95%;
+    height: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#first input[type=submit] {
+    width: 98%;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 14px 20px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#first input[type=submit]:hover {
+    background-color: #FF373B;
+}
+
+@media only screen and (max-width: 576px) {
+    #first .searchBox p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    #first .searchBox label {
+        font-family: 'Raleway', sans-serif;
+        color: #868d90;
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+/*second*/
+
+#second .container-fluid {
+    padding: 0;
+}
+
+#second .reviewsss {
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+#second .icon1 {
+    margin: 35% 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    #second .icon1 {
+        margin: 5% 0 5% 0;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #second .icon1 {
+        margin: 5% 200%;
+        width: auto;
+    }
+    #second .review p, #second .trophy p {
+        text-align: center;
+    }
+}
+
+#second .review, #second .trophy {
+    padding: 0;
+    margin-top: 1%;
+}
+
+#second .review p, #second .trophy p {
+    font-size: 25px;
+    margin: 4% 0;
+    line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    #second .review p, #second .trophy p {
+        font-size: 15px;
+        margin: 4% 0;
+    }
+    #second .pp {
+        font-size: 8px;
+        font-family: 'Raleway', sans-serif;
+        color: #666666;
+    }
+}
+
+#second .pp {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'Raleway', sans-serif;
+}
+
+#second .islandPic, #second .riversidePic, #second .woodlandPic {
+    width: 100%;
+    height: 100%;
+    transition: transform .2s
+}
+
+#second .islandPic:hover, #second .riversidePic:hover, #second .woodlandPic:hover {
+    transform: scale(1.03);
+}
+
+#second .island p, #second .riverside p, #second .woodland p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin-top: 5px;
+    height: 120px;
+}
+
+@media only screen and (max-width: 1280px)and (min-width: 768px) {
+    #second .island p, #second .riverside p, #second .woodland p {
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 8%;
+    }
+}
+
+#second .profilePic p {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    line-height: 1;
+    height: auto;
+}
+
+#second a {
+    color: black;
+    text-decoration: none;
+}
+
+#second .ppp {
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+    color: #666666;
+}
+
+/*third*/
+
+#third .container-fluid {
+    padding: 0;
+}
+
+#third {
+    background-color: rgba(255, 249, 244);
+}
+
+#third .love p, .home p, .person p {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15%;
+    font-family: 'Raleway', sans-serif;
+}
+
+#third #pp {
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media only screen and (min-width: 768px)and (max-width: 1280px) {
+    #third .love p, .home p, .person p {
+        font-size: 20px;
+    }
+    #third #pp {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #third .love p, .home p, .person p {
+        margin-bottom: 15%;
+    }
+}
+
+/*forth*/
+
+#forth {
+    background-color: #fef1e7;
+}
+
+#forth .container-fluid {
+    padding: 0;
+}
+
+#forth .livingroom2Pic, #forth .beachPic, #forth .livingroom3Pic, #forth .woodland2Pic {
+    width: 100%;
+    height: 180px;
+    transition: transform .2s
+}
+
+#forth .livingroom2Pic:hover, .beachPic:hover, .livingroom3Pic:hover, .woodland2Pic:hover {
+    transform: scale(1.03);
+}
+
+#forth .woodland2 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+#forth .seeAll {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#forth .seeAll:hover {
+    color: #ff5a5f;
+}
+
+@media only screen and (max-width: 768px) {
+    #forth .seeAll {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #forth .seeAll {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#forth .forthPartp {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+}
+
+#forth .forthPartpp {
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#forth .forthPartppp {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+#forth br {
+    line-height: 124%;
+}
+
+#forth .forthPart a {
+    color: black;
+    text-decoration: none;
+}
+
+#forth .woodland2Pic {
+    filter: blur(1.5px) brightness(55%);
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+#forth h4 {
+    margin-bottom: 15%;
+}
+
+/*fifth*/
+
+#fifth .container-fluid {
+    padding: 0;
+    margin-bottom: 3%;
+}
+
+#fifth {
+    height: auto;
+    background-color: #ff5a5f;
+}
+
+#fifth .addDateButton a:link, a:visited {
+    margin-top: 16%;
+    float: right;
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+    #fifth .addDateButton a:link, a:visited {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #fifth .addDateButton a:link, a:visited {
+        float: inherit;
+        margin: 5% 0 10% 26%;
+    }
+}
+
+#fifth .addDateButton a:hover, .addDateButton a:active {
+    background-color: #ff5a5f;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*sixth*/
+
+#sixth .container-fluid {
+    padding: 0;
+}
+
+#sixth h1 {
+    font-size: 30px;
+}
+
+#sixth .airbnb, .discover, .hosting, .fiticon {
+    width: 294px;
+    height: 240px;
+    margin-top: 25px;
+    float: left;
+}
+
+#sixth p {
+    margin-bottom: 18px;
+}
+
+#sixth .pp {
+    color: gray;
+}
+
+#sixth a, #sixth .footericon a {
+    font-size: 18px;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+#sixth .fbicon {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+}
+
+#sixth .igicon {
+    float: left;
+    width: 65px;
+    height: 47px;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+#sixth .twiicon {
+    float: left;
+    width: 16%;
+    margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sixth .fiticon a {
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 576px) {
+    #sixth .airbnb {
+        height: 210px;
+    }
+    #sixth .discover {
+        margin: 0;
+        height: 240px;
+    }
+    #sixth .hosting {
+        height: 170px;
+    }
+    #sixth .fiticon {
+        height: 190px;
+    }
+}
+
+/*footer*/
+
+.airbnbicon {
+    margin-top: 0;
+    margin-bottom: 2%;
+    float: left;
+    padding: 0;
+}
+
+.airbnbicon p {
+    color: #485358;
+}
+
+.airicon {
+    width: 6%;
+    float: left;
+}
+
+.airbnbicon p {
+    font-size: 20px;
+    margin: 1% 0 0 2%;
+    font-family: Arial Black;
+    float: left;
+    line-height: 1;
+}
+
+.twobar {
+    margin-top: 0;
+    padding: 0;
+    float: right;
+    width: 320px;
+}
+
+.lanbar {
+    float: left;
+    padding: 0;
+}
+
+.moneybar {
+    float: right;
+    padding: 0;
+}
+
+.languageselectpicker {
+    float: right;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.moneyselectpicker {
+    float: right;
+    height: 30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .airicon {
+        width: 8%;
+    }
+    .airbnbicon p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .airicon {
+        width: 10%;
+    }
+    .languageselectpicker {
+        height: 80%;
+        width: 80%;
+    }
+    .moneyselectpicker {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .airicon {
+        width: 15%;
+    }
+    .airbnbicon p {
+        font-size: 15px;
+    }
+}
