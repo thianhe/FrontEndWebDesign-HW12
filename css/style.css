@@ -256,8 +256,7 @@ h1 {
 
 #second .profilePic p {
     font-size: 22px;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin: 5px 0 10% 20px;
     float: left;
     line-height: 1;
     height: auto;
@@ -415,7 +414,6 @@ h1 {
 }
 
 #fifth .addDateButton a:link, a:visited {
-    margin-top: 16%;
     float: right;
     background-color: white;
     color: black;
@@ -428,9 +426,15 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+@media only screen and (max-width: 1500px) and (min-width: 768px) {
+    #fifth .addDateButton a:link, a:visited {
+        margin-top: 17%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     #fifth .addDateButton a:link, a:visited {
-        margin-top: 0;
+        margin-top: 1;
     }
 }
 
